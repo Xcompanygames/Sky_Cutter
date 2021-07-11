@@ -29,18 +29,18 @@ $ pip install -e .
 ### Installation
 
 ```sh
-$ git clone https://github.com/Xcompanygames/Skyminator
+$ git clone https://github.com/Xcompanygames/Sky_Cutter
 ```
 COCO dataset:
 https://cocodataset.org/#
 
 
 ### How to use
-* Put the Skyminator.ipynb file in a folder with a zip containing images 
+* Put the Sky_Cutter.ipynb file in a folder with a zip containing images 
 * Under "Loading our data" change resp to the name of your zip 
 * Unzip the file
 * Run ALL the notebook
-* A folder named sky_treminated_images will be created, in it all the images that detectron2 found a sky in them and deleted them
+* A folder named sky_treminated_images will be created, in it all the images that detectron2 found a sky in them and deleted them, output json will be named data.json
 
 ### Remove all backdrops
 * To remove all backdrops and not just the sky:
